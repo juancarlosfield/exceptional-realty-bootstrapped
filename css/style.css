@@ -10,4 +10,45 @@ img, video, audio, iframe, table, form {
 /*/////// LAYOUT STYLES ////////*/
 .row{
   margin-bottom: 20px;
+
+
+
+/*//// Carousel Styles ////*/ 
+
+#carousel-example-generic .item img {
+  height:auto;
 }
+
+.carousel-caption p {
+display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #carousel-example-generic .item img {
+    height:384px;
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+  #carousel-example-generic .item img {
+    height:496px;
+  }
+  .carousel-caption p {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+ #carousel-example-generic .item img {
+    height:600px;
+  }
+  
+}
+
+
+/*from the information getbootstrap.com/css and clicking on grit system 
+then if you scroll down there are a different chart where it will show for small medium or large screen devices */
+
+
+
